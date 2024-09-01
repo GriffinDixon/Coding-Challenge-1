@@ -19,3 +19,19 @@ const productDetails = {
     inStock: true
 }
 console. log(products, productDetails)
+
+// Task 3: Assignment Operators
+
+let accountBalance = 1000
+console.log (accountBalance)
+accountBalance += 500;
+console.log (accountBalance)
+accountBalance -=550;
+console.log (accountBalance)
+accountBalance *=4;
+console.log (accountBalance)
+accountBalance /=2
+console.log (accountBalance)
+accountBalance %=50;
+console.log(accountBalance)
+
