@@ -14,7 +14,7 @@ console.log(isActive, typeof(isActive))
 
 let products = ["Macbook Pro", "Keyboard", "Mouse"];
 const productDetails = {
-    name: technology,
+    name: 45,
     price: 240.00,
     inStock: true
 }
