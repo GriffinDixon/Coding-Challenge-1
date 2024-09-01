@@ -22,7 +22,7 @@ console. log(products, productDetails)
 
 // Task 3: Assignment Operators
 
-let accountBalance = 1000
+let accountBalance = 1000;
 console.log (accountBalance)
 accountBalance += 500;
 console.log (accountBalance)
@@ -30,7 +30,7 @@ accountBalance -=550;
 console.log (accountBalance)
 accountBalance *=4;
 console.log (accountBalance)
-accountBalance /=2
+accountBalance /=2;
 console.log (accountBalance)
 accountBalance %=50;
 console.log(accountBalance)
@@ -47,3 +47,12 @@ console.log (employeeScore1 >= employeeScore2 )
 console.log (employeeScore1 <= employeeScore2 )
 console.log (employeeScore1 === employeeScore2 )
 console.log (employeeScore1 !== employeeScore2 )
+
+// Task 5: Logical Operators
+
+let hasKeyCard = true
+let hasPermission = false
+let accessSection1 = hasKeyCard && hasPermission
+console.log (accessSection1)
+let accessSection2 = hasKeyCard || hasPermission
+console.log (accessSection2)
